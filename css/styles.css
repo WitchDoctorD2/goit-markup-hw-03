@@ -4,8 +4,20 @@ body {
     background-color: #ffffff;
 }
 
+img {
+    display: block
+}
+
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
@@ -17,6 +29,22 @@ a:hover {
     color: red;
 }
 
+.container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: ;
+    margin-right: ;
+    margin: 0, auto;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+} 
+
 /*---------------logo-----------------*/
 .logo {
     font-family: "Raleway", sans-serif;
@@ -25,7 +53,7 @@ a:hover {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /*---------------navigation------------*/
@@ -94,19 +122,21 @@ a:hover {
 }
 
 /*------------approach-section-----------*/
-.approach-section{
+.approach-section {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.approach-subtitle{
+
+.approach-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .approach-paragrafs {
     font-size: 16px;
     line-height: 1.5;
@@ -115,10 +145,9 @@ a:hover {
 }
 
 /*------------team-section-----------*/
-.team-section{
+.team-section {
     background-color: #F4F4FD;
-    line-height: 1.5
-    font-size: 16px;
+    line-height: 1.5 font-size: 16px;
 }
 
 .team-subtitle {
@@ -134,7 +163,7 @@ a:hover {
     background-color: #FFFFFF;
 }
 
-.team-station{
+.team-station {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -144,7 +173,7 @@ a:hover {
     background-color: #FFFFFF;
 }
 
-.team-name{
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
