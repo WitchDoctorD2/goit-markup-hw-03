@@ -35,8 +35,10 @@ a:hover {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: ;
-    margin-right: ;
-    margin: 0, auto;
+    margin-right: 40px;
+    margin: 0 auto;
+    gap: 40px;
+
 }
 
 .header {
@@ -53,10 +55,20 @@ a:hover {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
     text-transform: uppercase;*/
 }
 
+.logo-header {
+    color: #2e2f42;
+}
+
 /*---------------navigation------------*/
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .navigation-link {
     color: #2e2f42;
     line-height: 1.5;
@@ -206,10 +218,6 @@ a:hover {
 }
 
 /*---------------footer--------------*/
-
-.logo-header {
-    color: #2e2f42;
-}
 
 .main-footer {
     background-color: #2e2f42;
