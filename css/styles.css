@@ -56,7 +56,8 @@ a:hover {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    text-transform: uppercase;*/
+    padding: 24px 0;
+    text-transform: uppercase;
 }
 
 .logo-header {
@@ -95,7 +96,7 @@ a:hover {
     font-style: normal;
 }
 
-.address-list {
+.address--list {
     display: flex;
     gap: 40px;
 }
@@ -118,12 +119,14 @@ a:hover {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
     color: #ffffff;
 }
 
 /*----------button------------*/
 .buttons-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .buy-button {
@@ -131,6 +134,10 @@ a:hover {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
 }
@@ -149,15 +156,34 @@ a:hover {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding: 120px 0;
 }
 
-.approach-subtitle {
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+}
+
+.approach-list {
+    display: flex;
+    gap: 24px;
+}
+
+.approach-item {
+    width: calc((100% - 72px) / 4);
+}
+
+/*.approach-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
+}*/
 
 .approach-paragrafs {
     font-size: 16px;
