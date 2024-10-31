@@ -37,7 +37,7 @@ a:hover {
     margin-left: ;
     margin-right: 40px;
     margin: 0 auto;
-    gap: 40px;
+    
 
 }
 
@@ -69,6 +69,11 @@ a:hover {
     align-items: center;
 }
 
+.navigation-list {
+    display: flex;
+    gap: 40px;
+}
+
 .navigation-link {
     color: #2e2f42;
     line-height: 1.5;
@@ -88,6 +93,11 @@ a:hover {
 /*---------------address-------------*/
 .address {
     font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address-info {
