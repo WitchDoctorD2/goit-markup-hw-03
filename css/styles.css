@@ -56,7 +56,8 @@ a:hover {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-transform: uppercase;
 }
 
@@ -96,11 +97,22 @@ a:hover {
     font-style: normal;
 }
 
-.address--list {
+.address-list {
     display: flex;
     gap: 40px;
+
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
+.address-list li {
+    margin-right: 40px;
+}
+
+.address-list li:last-child {
+    margin-right: 0;
+   
+}
 .address-info {
     line-height: 1.5;
     letter-spacing: 0.02em;
