@@ -29,12 +29,25 @@ a:hover {
     color: red;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     display: flex;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: ;
     margin-right: 40px;
     margin: 0 auto;
     
@@ -137,6 +150,13 @@ a:hover {
 }
 
 /*----------button------------*/
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
 .buttons-section {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -148,6 +168,7 @@ a:hover {
     line-height: 1.5;
     letter-spacing: 0.04em;
     min-width: 169px;
+    max-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
