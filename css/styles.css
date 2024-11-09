@@ -50,6 +50,8 @@ a:hover {
     padding-right: 15px;
     margin-right: 40px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
     
 
 }
@@ -209,16 +211,16 @@ a:hover {
 }
 
 .approach-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-/*.approach-subtitle {
+.approach-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}*/
+}
 
 .approach-paragrafs {
     font-size: 16px;
