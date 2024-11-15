@@ -120,6 +120,8 @@ a:hover {
 
     padding-right: 40px;
     padding-left: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-list li {
@@ -134,6 +136,7 @@ a:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 .address-info:hover {
     color: #404bbf;
@@ -231,9 +234,14 @@ a:hover {
 }
 
 /*------------team-section-----------*/
+.team-container {
+   display: block;
+}
 .team-section {
     background-color: #F4F4FD;
-    line-height: 1.5 font-size: 16px;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 120px 0;
 }
 
 .team-subtitle {
@@ -243,10 +251,13 @@ a:hover {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
 }
 
 .team-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
 
 .team-station {
@@ -255,8 +266,10 @@ a:hover {
 }
 
 
-.test {
+.team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 34) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -265,6 +278,7 @@ a:hover {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 /*--------------portfolio-section--------------*/
