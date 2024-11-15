@@ -237,6 +237,11 @@ a:hover {
 .team-container {
    display: block;
 }
+
+.team-info {
+    padding: 32px 0;
+}
+
 .team-section {
     background-color: #F4F4FD;
     line-height: 1.5;
@@ -251,7 +256,7 @@ a:hover {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -263,6 +268,7 @@ a:hover {
 .team-station {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 
