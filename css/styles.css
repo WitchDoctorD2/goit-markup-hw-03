@@ -289,6 +289,22 @@ a:hover {
 }
 
 /*--------------portfolio-section--------------*/
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width:calc((100% - 48px) / 3); 
+}
+
 .portfolio-title {
     font-weight: 500;
     font-size: 36px;
@@ -297,6 +313,7 @@ a:hover {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
